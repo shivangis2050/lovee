@@ -31,7 +31,7 @@ const SuccessView: React.FC = () => {
            <div className="relative group">
               <div className="absolute -inset-8 bg-white/20 rounded-full blur-3xl group-hover:bg-white/40 transition duration-1000"></div>
               <img 
-                src="./couple.png" 
+                src="/couple.png" 
                 alt="Tanmay's Date Night" 
                 className="relative rounded-3xl border-8 border-white shadow-2xl w-64 h-64 md:w-96 md:h-96 object-cover transition-transform hover:scale-105 duration-500"
                 onError={(e) => {
